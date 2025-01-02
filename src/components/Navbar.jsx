@@ -44,9 +44,9 @@ const mobileRoutes = [
 ];
 
 const Navbar = () => {
-  const shoppingCartStyle = { fontSize: "2.813em" }
+  const shoppingCartStyle = { fontSize: "2.313em" }
   const menuIconStyle = { fontSize: "2em" }
-  const xMenuIconStyle = { fontSize: "2em" }
+  const xMenuIconStyle = { fontSize: "2em", position: "relative", top: "25px", right: "20px" }
   
   const [dropNav, setDropNav] = useState(false);
 
@@ -55,8 +55,8 @@ const Navbar = () => {
   }
   
   return (
-    <div className="absolute w-screen">
-      <nav className="flex justify-between items-center w-full max-w-[1260px] mx-auto px-4 sm:px-6 md:px-0 py-[1rem] sm:py-[2rem] md:py-[3.5rem]">
+    <div className="absolute w-screen px-4 top-0 left-0">
+      <nav className="flex justify-between gap-4 items-center w-full max-w-[1260px] mx-auto px-4* sm:px-6* md:px-0* py-[1rem] sm:py-[2rem] md:py-[3.5rem]">
         {/* ====== logo ====== */}
         <div className="w-[7rem] sm:w-[9rem] md:w-[11.375rem]">
           <img 
@@ -68,7 +68,7 @@ const Navbar = () => {
 
         {/* ====== links ====== */}
         <div className="hidden md:flex flex-1 mx-2">
-          <ul className="w-full flex gap-x-5 lg:gap-x-10 justify-center">
+          <ul className="w-full flex gap-2 lg:gap-x-10 justify-center">
             {routes.map((link, index) => (
               <li
                 key={index}
@@ -86,7 +86,7 @@ const Navbar = () => {
             <MdOutlineShoppingCart style={shoppingCartStyle} />
           </div>
           <button
-            className="bg-[#FFF] nav-btn-shadow w-[10.625rem] lg:w-[13.625rem] h-[3rem] lg:h-[4.5rem] rounded-full"
+            className="bg-[#FFF] nav-btn-shadow w-[10.625rem] lg:w-[13.625rem] h-[3.5rem] lg:h-[4.5rem] font-bold text-[1.1rem] rounded-full"
             onClick={() => alert("A table has been reserved for you.")}
           >
             Book Now
@@ -97,7 +97,7 @@ const Navbar = () => {
         <div className="md:hidden font-semibold text-[0.9rem] sm:text-[1rem]">
           {dropNav ? (
             <div className="absolute top-0 right-0 backdrop-blur-md bg-slate-100 bg-opacity-50">
-              <div className="mobile-nav-shadow absolute z-10 flex flex-col bg-white p-4 top-0 right-0 w-72 rounded-b-lg rounded-tl-lg transition-all duration-1000 origin-top-right"
+              <div className="mobile-nav-shadow absolute z-10 flex flex-col bg-white p-4* top-0 right-0 w-72 rounded-b-lg rounded-tl-lg transition-all duration-1000 origin-top-right"
                 // style="clip-path:circle(100% at 50%, 50%)"
               >
                 <button
@@ -118,7 +118,10 @@ const Navbar = () => {
 
                 {/* ====== button ====== */}
                 <div className="text-center">
-                  <button className="nav-btn-shadow mb-4 bg-[#FE9E0D] w-[9.5rem] h-[3rem] sm:w-[13.625rem] sm:h-[4.5rem] rounded-full">
+                  <button 
+                    className="nav-btn-shadow mb-4 bg-[#FE9E0D] w-[9.5rem] h-[3rem] text-white rounded-full"
+                    onClick={() => alert("A table has been reserved for you.")}
+                  >
                     Book Now
                   </button>
                 </div>
