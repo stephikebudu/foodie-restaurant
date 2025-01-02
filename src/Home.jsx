@@ -57,9 +57,9 @@ const Home = () => {
       </section>
 
       {/* ====== About page ====== */}
-      {/* <section>
+      <section>
         <About />
-      </section> */}
+      </section> 
 
       {/* ====== Work page ====== */}
       {/* <section>
