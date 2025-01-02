@@ -18,7 +18,7 @@ const About = () => {
       {/* ====== Column 2 ====== */}
       <div className="flex-1">
         <p className="text-[#F4980D] font-bold text-[0.65rem] sm:text-[0.8rem] md:text-[1rem]">About</p>
-        <h1 className="whitespace-pre-line font-bold text-[1.65rem] md:text-[2rem] lg:text-[2.94rem] mt-[0.5rem] mb-[1.5rem]">
+        <h1 className="whitespace-pre-line text-[#4c4c4c] font-bold text-[1.65rem] md:text-[2rem] lg:text-[2.94rem] mt-[0.5rem] mb-[1.5rem]">
           Food Is An Important{"\n"}Part Of A Balanced{"\n"}Diet
         </h1>
         <p className="whitespace-pre-line font-semibold text-[0.7rem] md:text-[0.9rem] lg:text-[1.2rem] text-[#828282]">
