@@ -62,9 +62,9 @@ const Home = () => {
       </section> 
 
       {/* ====== Work page ====== */}
-      {/* <section>
+      <section className="lg:h-[100vh] lg:min-h-[100vh]">
         <Work />
-      </section> */}
+      </section>
 
       {/* ====== Testimonials page ====== */}
       {/* <section>
