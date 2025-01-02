@@ -46,7 +46,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="mt-6 flex-1">
+          <div className="-mt-4 sm:mt-6 flex-1">
             <img
               src="../src/assets/home-page-img.png"
               alt="Home page food image"
@@ -57,7 +57,7 @@ const Home = () => {
       </section>
 
       {/* ====== About page ====== */}
-      <section>
+      <section className="lg:h-[100vh] lg:min-h-[100vh]">
         <About />
       </section> 
 
