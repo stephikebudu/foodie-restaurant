@@ -6,12 +6,12 @@ const Work = () => {
   return (
     <div
       id="work"
-      className="h-[100vh] min-h-[100vh] flex flex-col items-center gap-16"
+      className="min-h-[100vh] flex flex-col items-center gap-16"
     >
       <div className="flex flex-col items-center">
         <p className="text-[#F4980D] font-bold text-[0.65rem] sm:text-[0.8rem] md:text-[1rem]">Work</p>
         <h1 className="text-[#4c4c4c] font-bold text-[1.65rem] md:text-[2rem] lg:text-[2.94rem] my-[1.5rem]">How It Works</h1>
-        <p className="whitespace-pre-line text-center font-semibold text-[0.7rem] md:text-[0.9rem] lg:text-[1.2rem] text-[#828282]">Lorem ipsum dolor sit amet consectetur. Non tincidunt{"\n"}magna non et elit. Dolor  turpis molestie dui{"\n"}magnis facilisis at fringilla quam.</p>
+        <p className="sm:whitespace-pre-line text-center font-semibold text-[0.7rem] md:text-[0.9rem] lg:text-[1.2rem] text-[#828282]">Lorem ipsum dolor sit amet consectetur. Non tincidunt{"\n"}magna non et elit. Dolor  turpis molestie dui{"\n"}magnis facilisis at fringilla quam.</p>
       </div>
 
       {/* ====== Work Cards Section ====== */}

@@ -4,10 +4,10 @@ const About = () => {
   return (
     <div 
       id="about"
-      className="flex flex-col-reverse sm:flex-row"
+      className="min-h-[100vh] flex flex-col-reverse sm:flex-row"
     >
       {/* ====== Column 1 ====== */}
-      <div className="mt-8 sm:mt-0 flex-1 place-content-center">
+      <div className="mt-14 sm:mt-0 flex-1 place-content-center">
         <img 
           src="src/assets/about-page-img.png"
           alt="About Page Food Image"

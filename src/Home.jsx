@@ -2,6 +2,8 @@ import About from "./About"
 import Work from "./Work"
 import Testimonials from "./Testimonials"
 import Contact from "./Contact"
+import Footer from "src/components/Footer"
+
 
 import { FaArrowRightLong } from "react-icons/fa6";
 
@@ -25,7 +27,7 @@ const Home = () => {
           <img 
             src="../src/assets/blobs/blob-2.svg"
             alt="Blob 2"
-            className="absolute top-[108%] sm:top-[78%] md:top-[88%] lg:top-[100%] left-0 -z-10 max-h-[397px] sm:max-h-[478px] md:max-h-[637px] lg:max-h-full"
+            className="absolute top-[108%] sm:top-[78%] md:top-[100%] lg:top-[140%] left-0 -z-10 max-h-[397px] sm:max-h-[478px] md:max-h-[637px] lg:max-h-full"
           />
         </div>
 
@@ -57,23 +59,28 @@ const Home = () => {
       </section>
 
       {/* ====== About page ====== */}
-      <section className="lg:h-[100vh] lg:min-h-[100vh]">
+      <section className="lg:h-[100vh] lg:min-h-[100vh] md:mt-20">
         <About />
       </section> 
 
       {/* ====== Work page ====== */}
-      <section className="lg:h-[100vh] lg:min-h-[100vh]">
+      <section className="lg:h-[100vh] lg:min-h-[100vh] mt-10 md:mt-0 lg:mt-40">
         <Work />
       </section>
 
       {/* ====== Testimonials page ====== */}
-      {/* <section>
+      <section className="lg:h-[100vh] lg:min-h-[100vh] mt-10 md:mt-40 border border-green-900">
         <Testimonials />
-      </section> */}
+      </section>
 
       {/* ====== Contact page ====== */}
       {/* <section>
         <Contact />
+      </section> */}
+
+      {/* ====== Footer ====== */}
+      {/* <section>
+        <Footer />
       </section> */}
     </div>
   );
