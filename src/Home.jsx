@@ -69,7 +69,7 @@ const Home = () => {
       </section>
 
       {/* ====== Testimonials page ====== */}
-      <section className="lg:h-[100vh] lg:min-h-[100vh] mt-10 md:mt-40 border border-green-900">
+      <section className="lg:h-[100vh] lg:min-h-[100vh] mt-10 md:mt-40">
         <Testimonials />
       </section>
 
