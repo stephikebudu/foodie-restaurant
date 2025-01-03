@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className="px-4 xl:px-0 mx-auto max-w-[1260px]">
       {/* ====== Landing page ====== */}
-      <section className="lg:h-[100vh] lg:min-h-[100vh]">
+      <section className="lg:h-[100vh]* lg:min-h-[100vh]">
         {/* ====== blobs ====== */}
         <div className="">
           <img 
@@ -59,24 +59,24 @@ const Home = () => {
       </section>
 
       {/* ====== About page ====== */}
-      <section className="lg:h-[100vh] lg:min-h-[100vh] md:mt-20">
+      <section className="lg:h-[100vh]* lg:min-h-[100vh] md:mt-20">
         <About />
       </section> 
 
       {/* ====== Work page ====== */}
-      <section className="lg:h-[100vh] lg:min-h-[100vh] mt-10 md:mt-0 lg:mt-40">
+      <section className="lg:h-[100vh]* lg:min-h-[100vh] mt-10 md:mt-0 lg:mt-40">
         <Work />
       </section>
 
       {/* ====== Testimonials page ====== */}
-      <section className="lg:h-[100vh] lg:min-h-[100vh] mt-10 md:mt-40">
+      <section className="lg:h-[100vh]* lg:min-h-[100vh] mt-10 md:mt-40">
         <Testimonials />
       </section>
 
       {/* ====== Contact page ====== */}
-      {/* <section>
+      <section className="lg:h-[100vh] lg:min-h-[100vh] mt-10* md:mt-40* border border-red-900">
         <Contact />
-      </section> */}
+      </section>
 
       {/* ====== Footer ====== */}
       {/* <section>

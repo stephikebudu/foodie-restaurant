@@ -16,7 +16,7 @@ const Testimonials = () => {
       {/* ====== 2nd row ====== */}
       <div className="flex flex-col items-center bg-[#FFFFFF] w-[90%] sm:w-[70%] sm:max-w-[70%] pt-4 sm:pt-6 pb-8 sm:pb-10 px-3 rounded-xl sm:rounded-3xl testimonial-section-card-shadow">
         {/* ====== customer image ====== */}
-        <div className="h-[5rem] w-[5rem] lg:h-[7rem] lg:w-[7rem] rounded-full overflow-hidden">
+        <div className="h-[5rem] w-[5rem] lg:h-[7rem] lg:w-[7rem] rounded-full overflow-hidden testimonial-section-img-shadow">
           <img
             src="src/assets/customer-img.jpeg"
             alt="customer image"
