@@ -74,7 +74,7 @@ const Home = () => {
       </section>
 
       {/* ====== Contact page ====== */}
-      <section className="lg:h-[100vh] lg:min-h-[100vh] mt-10* md:mt-40* border border-red-900">
+      <section className="mt-10 md:mt-40">
         <Contact />
       </section>
 
