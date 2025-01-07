@@ -79,9 +79,9 @@ const Home = () => {
       </section>
 
       {/* ====== Footer ====== */}
-      {/* <section>
+      <section className="mt-24 md:mt-60">
         <Footer />
-      </section> */}
+      </section>
     </div>
   );
 }
