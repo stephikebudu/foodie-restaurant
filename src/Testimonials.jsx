@@ -18,7 +18,7 @@ const Testimonials = () => {
         {/* ====== customer image ====== */}
         <div className="h-[5rem] w-[5rem] lg:h-[7rem] lg:w-[7rem] rounded-full overflow-hidden testimonial-section-img-shadow">
           <img
-            src="src/assets/customer-img.jpeg"
+            src="customer-img.jpeg"
             alt="customer image"
             className="object-cover h-[100%] w-[100%] max-h-[100%] max-w-[100%] block"
           />

@@ -17,7 +17,7 @@ const Home = () => {
         {/* ====== blobs ====== */}
         <div className="">
           <img 
-            src="../src/assets/blobs/blob-1.svg"
+            src="blob-1.svg"
             alt="Blob 1"
             className="w-1/2 absolute top-0 right-0 -z-10 max-w-[567px]"
           />
@@ -25,7 +25,7 @@ const Home = () => {
 
         <div>
           <img 
-            src="../src/assets/blobs/blob-2.svg"
+            src="blob-2.svg"
             alt="Blob 2"
             className="absolute top-[108%] sm:top-[78%] md:top-[100%] lg:top-[140%] left-0 -z-10 max-h-[397px] sm:max-h-[478px] md:max-h-[637px] lg:max-h-full"
           />
@@ -50,7 +50,7 @@ const Home = () => {
 
           <div className="-mt-4 sm:mt-6 flex-1">
             <img
-              src="../src/assets/home-page-img.png"
+              src="home-page-img.png"
               alt="Home page food image"
               className="lg:max-w-[528px] sm:-mt-16"
             />

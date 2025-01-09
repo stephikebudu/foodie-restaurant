@@ -9,7 +9,7 @@ const About = () => {
       {/* ====== Column 1 ====== */}
       <div className="mt-14 sm:mt-0 flex-1 place-content-center">
         <img 
-          src="src/assets/about-page-img.png"
+          src="about-page-img.png"
           alt="About Page Food Image"
           className="lg:max-w-[528px]"
         />
